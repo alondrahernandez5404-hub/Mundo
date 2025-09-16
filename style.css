@@ -1,0 +1,44 @@
+/* Estilos generales del cuerpo */
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    color: #ff06c9;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #ff044f;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+/* Párrafos */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Imagen personalizada */
+imagen-yo {
+    width: 150px;
+    height: 150px;
+    transform: scaleY(-1);         /* Voltea la imagen verticalmente */
+    border-radius: 50%;            /* La hace completamente redonda */
+    border: 3px solid #4f08ab;     /* Mismo color que el título */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); /* Sombra suave */
+    object-fit: cover;             /* Asegura que no se deforme la imagen */
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
