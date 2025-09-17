@@ -11,12 +11,12 @@ body {
 /* Título principal */
 h1 {
     color: #ff06c9;
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 50px;
+    margin-bottom: 30px;
 }
 h2 {
-    color: #ff044f;
-    font-size: 25px;
+    color: purple;
+    font-size: 30px;
     margin-bottom: 35px;
 }
 
@@ -27,18 +27,127 @@ p {
     margin-bottom: 15px;
 }
 
+
 /* Imagen personalizada */
-imagen-yo {
-    width: 150px;
-    height: 150px;
-    transform: scaleY(-1);         /* Voltea la imagen verticalmente */
-    border-radius: 50%;            /* La hace completamente redonda */
-    border: 3px solid #4f08ab;     /* Mismo color que el título */
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); /* Sombra suave */
-    object-fit: cover;             /* Asegura que no se deforme la imagen */
-    margin-top: 20px;
+.libro-abierto {
+    width: 500px;
+    height: 250px;
+    border-radius: 0%;            
+    border: 5px solid skyblue;     
+    object-fit: cover;             
+    margin-top: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+.programacion-c {
+    width: 500px;
+    height: 250px;
+    border-radius: 0%;
+    border: 5px solid salmon;
+    object-fit: cover;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.matematicas-123 {
+    width: 500px;
+    height: 250px;
+    border-radius: 0%;
+    border: 5px solid blueviolet;
+    object-fit: cover;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor-imagenes {
+    display: flex;             
+    justify-content: center;    
+    align-items: center;        
+    gap: 20px;                  
+    flex-wrap: wrap;            
+    margin-top: 30px;
+}
+.tabla-inferior {
+  margin: 30px auto; 
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 600px;
+  background-color: turquoise;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border: 1px solid palevioletred;
+}
+
+.tabla-inferior th,
+.tabla-inferior td {
+  border: 1px solid white;
+  padding: 10px;
+  text-align: left;
+}
+
+.tabla-inferior th {
+  background-color: teal;
+  font-weight: bold;
+}
+
+
+
+.formulario-contacto {
+  background-color: #ffffff;
+  padding: 25px;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contacto h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.formulario-contacto label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formulario-contacto input[type="email"],
+.formulario-contacto textarea,
+.formulario-contacto select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.formulario-contacto textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.formulario-contacto button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario-contacto button:hover {
+  background-color: #0056b3;
+}
+
+
 
