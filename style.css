@@ -10,7 +10,7 @@ body {
 
 /* Título principal */
 h1 {
-    color: #ff06c9;
+    color: #ff00b3;
     font-size: 50px;
     margin-bottom: 30px;
 }
@@ -148,6 +148,54 @@ p {
 .formulario-contacto button:hover {
   background-color: #0056b3;
 }
+
+
+h3 {
+     color: black;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.persona-admirada {
+    background-color: pink;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contenido-persona {
+    display: flex;              
+    align-items: left;        
+    gap: 30px;                  
+}
+
+.foto-persona {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border: 8px solid #aa0093;
+}
+
+.texto-persona {
+    flex: 1;                    
+    text-align: right;
+}
+
+.biografia-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #4f08ab;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.biografia-link:hover {
+    background-color: #36057c;
+}
+
 
 
 
